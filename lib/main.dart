@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mf_part1_lagu_daerah/pages/music.dart';
 import 'package:mf_part1_lagu_daerah/pages/splash_screen.dart';
 
 void main() {

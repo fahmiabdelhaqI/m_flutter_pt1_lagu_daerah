@@ -1,8 +1,10 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 class Province {
   final int id;
   final String nama;
   final String ibuKota;
   final String photo;
+  final String audio;
   final String laguDaerah;
   final String lirikLaguDaerah;
   Province({
@@ -10,6 +12,7 @@ class Province {
     required this.nama,
     required this.ibuKota,
     required this.photo,
+    required this.audio,
     required this.laguDaerah,
     required this.lirikLaguDaerah,
   });
@@ -78,6 +81,7 @@ Dikitipi dawang
 Nang mana batis kutung
 
 Dikitipi dawang''',
+    audio: 'mp3/ampar_pisang.mp3',
   ),
   Province(
     id: 2,
@@ -107,6 +111,7 @@ Duduak tamanuang tiok sabanta
 Ayam den lapeh
 Ai ai ayam den lapeh
 ''',
+    audio: 'mp3/ayam_den_lapeh.mp3',
   ),
   Province(
     id: 3,
@@ -120,61 +125,51 @@ Ai ai ayam den lapeh
 
 Bangong telebeh telebeh indah lagoina
 
-
 Puteh kuneng me jam pumirah
 
 Bangong telebeh telebeh indah lagoina
 
-
 Puteh kuneng me jam pumirah
 
 Keumang si ulah cidah that rupa
 
-
 Puteh kuneng me jam pumirah
 
 Keumang si ulah cidah that rupa
-
 
 Lam sinar buleun lam sinar buleun angen peu ayon
 
 Ruroh mesuson mesuson nyang mala mala
 
-
 Lam sinar buleun lam sinar buleun angen peu ayon
 
 Luroh mesuson mesuson nyang mala mala
 
+Mangat that mebe’i menyo tathimcom
+
+Leupah that harum si bungong jeumpa
 
 Mangat that mebe’i menyo tathimcom
 
 Leupah that harum si bungong jeumpa
 
-
-Mangat that mebe’i menyo tathimcom
-
-Leupah that harum si bungong jeumpa
-
-
 Bungong jeumpa bungong jeumpa megah di Aceh
 
 Bangong telebeh telebeh indah lagoina
 
-
 Bungong jeumpa bungong jeumpa megah di Aceh
 
 Bangong telebeh telebeh indah lagoina
-
 
 Puteh kuneng me jam pumirah
 
 Bangong telebeh telebeh indah lagoina
-
 
 Puteh kuneng me jam pumirah
 
 Bangong telebeh telebeh indah lagoina
 ''',
+    audio: 'mp3/Bungong_Jeumpa.mp3',
   ),
   Province(
     id: 4,
@@ -184,7 +179,7 @@ Bangong telebeh telebeh indah lagoina
         'https://www.batamnews.co.id/foto_berita/2024/03/2024-03-06-perbaikan-tugu-zapin-riau-anggaran-disiapkan-untuk-mengembalikan-kejayaan-sebagai-icon-provinsi.jpg',
     laguDaerah: 'Soleram',
     lirikLaguDaerah: '''
-    Soleram
+Soleram
 Soleram
 Soleram
 Anak yang manis
@@ -197,6 +192,7 @@ Lima enam
 Tujuh delapan
 Kalau tuan dapat kawan baru sayang
 Kawan lama ditinggalkan jangan''',
+    audio: 'mp3/SOLERAM.mp3',
   ),
   //Kicir-Kicir
   Province(
@@ -221,6 +217,7 @@ Buah mangga enak rasanya
 Si manalagi ya tuan paling ternama
 Siapa saya ya tuan rajin bekerja
 pasti menjadi menjadi warga berguna''',
+    audio: 'mp3/KICIR_KICIR.mp3',
   ),
   Province(
     id: 6,
@@ -263,6 +260,7 @@ Silih pikanyaah teu inggis bela pati
 Manuk dadali ngandung siloka sinatria
 
 Keur sakumna Bangsa di Nagara Indonesia''',
+    audio: 'mp3/manuk_dadali.mp3',
   ),
   //jawa tengah gundul pacul
   Province(
@@ -281,15 +279,14 @@ Wakul ngglimpang segane dadi sak latar
 
 Wakul ngglimpang segane dadi sak latar
 
- 
-
 Gundul-gundul pacul cul gembelengan
 
-Nyunggi-nyunggi wakul kul gembelengan 
+Nyunggi-nyunggi wakul kul gembelengan
 
 Wakul ngglimpang segane dadi sak latar
 
 Wakul ngglimpang segane dadi sak latar''',
+    audio: 'mp3/Gundul_Pacul.mp3',
   ),
   //jawa timur Rek Ayo Rek
   Province(
@@ -319,6 +316,7 @@ Rek ayo rek mlaku mlaku nang Tunjungan
 Rek ayo rek rame rame bebarengan
 Cak ayo cak sopo gelem melu aku
 Cak ayo cak dolek kenalan cah ayu''',
+    audio: 'mp3/Rek_Ayo_Rek.mp3',
   ),
   //maluku Rasa Sayange
   Province(
@@ -344,7 +342,8 @@ Ku lihat dari jauh rasa sayang sayange..
 Rasa sayange.. rasa sayang sayange..
 Ku lihat dari jauh rasa sayang sayange..
 Rasa sayange.. rasa sayang sayange..
-Ku lihat dari jauh rasa sayang sayange..'''),
+Ku lihat dari jauh rasa sayang sayange..''',
+      audio: 'mp3/RASA_SAYANGE.mp3'),
   //bali janger
   Province(
       id: 10,
@@ -374,5 +373,6 @@ Sreyag sreyog ngiringme jangeran dijaba tengahe
 
 Ara sijang jangi janger ko pyak epong
 
-Ara sijang jangi janger ko pyak epong'''),
+Ara sijang jangi janger ko pyak epong''',
+      audio: 'mp3/MEJANGERAN.mp3'),
 ];
