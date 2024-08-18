@@ -1,5 +1,5 @@
 <p>Ada Penambahan MUSIC MP3 Pada APLIKASI</p>
-NOTE : GUNAKAN EMULATOR API 32 AGAR SUARA MUNCUL
+<p>NOTE : GUNAKAN EMULATOR API 32 AGAR SUARA MUNCUL</p>
 1. Splash Screen
    <img width="194" alt="splash-screen" src="https://github.com/user-attachments/assets/6a353027-fb5c-462d-b3f8-5fe84e0481e9">
 2. Home Page
